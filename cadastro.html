@@ -1,0 +1,174 @@
+<html>
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Cadastro do Aluno</title>
+
+  </head>
+
+ <body>
+  <!-- styles -->
+<link rel="stylesheet" type="text/css" href="./css/estilo_cadastro.css">
+<header>
+  <h1> CADASTRO DO ALUNO</h1>
+</header>
+  <p>
+  </p>
+  <main class="cadastro">
+    <div class="estilo_cadastro">
+      
+    </div>
+<!-- DADOS PESSOAIS-->
+<header>
+
+ <legend>Campos do cliente:</legend>
+ <table cellspacing="20" align="center" border-radius="50px">
+</header>
+  <tr>
+   <td>
+    <label for="nome">Nome: </label>
+  </td>
+  <td>
+    <input type="text" name="nome" required  placeholder="Preenchimento obrigatório">
+   </td>
+   <td>
+    <tr>
+   <td>
+    <label for="e-mail">E-mail: </label>
+  </td>
+  <td>
+    <input type="text" name="e-mail" required  placeholder="Preenchimento obrigatório">
+   </td>
+  </tr>
+    <tr>
+   <td>
+    <label for="idade">Idade: </label>
+   </td>
+   <td>
+    <input type="text" name="idade">
+   </td>
+  </tr>
+   </table>
+<br />
+<!-- ENDEREÇO -->
+ <legend>Campos do Endereço</legend>
+ <table cellspacing="20" align="center">
+  <tr>
+    <td>
+     <label for="cep">CEP: </label>
+    </td>
+    <td>
+     <input type="text" name="cep">
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <label for="estado">Estado:</label>
+    </td>
+    <td>
+     <select name="estado"> 
+     <option value="ac">Acre</option> 
+     <option value="al">Alagoas</option> 
+     <option value="am">Amazonas</option> 
+     <option value="ap">Amapá</option> 
+     <option value="ba">Bahia</option> 
+     <option value="ce">Ceará</option> 
+     <option value="df">Distrito Federal</option> 
+     <option value="es">Espírito Santo</option> 
+     <option value="go">Goiás</option> 
+     <option value="ma">Maranhão</option> 
+     <option value="mt">Mato Grosso</option> 
+     <option value="ms">Mato Grosso do Sul</option> 
+     <option value="mg">Minas Gerais</option> 
+     <option value="pa">Pará</option> 
+     <option value="pb">Paraíba</option> 
+     <option value="pr">Paraná</option> 
+     <option value="pe">Pernambuco</option> 
+     <option value="pi">Piauí</option> 
+     <option value="rj">Rio de Janeiro</option> 
+     <option value="rn">Rio Grande do Norte</option> 
+     <option value="ro">Rondônia</option> 
+     <option value="rs">Rio Grande do Sul</option> 
+     <option value="rr">Roraima</option> 
+     <option value="sc">Santa Catarina</option> 
+     <option value="se">Sergipe</option> 
+     <option value="sp">São Paulo</option> 
+     <option value="to">Tocantins</option> 
+    </select>
+    </td>
+   </tr>
+   <tr>
+   <td>
+    <label for="cidade">Cidade: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cidade">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="rua">Rua:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="rua">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="numero">Numero:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="numero">
+   </td>
+  </tr>
+   </table>
+<br />
+
+<!-- CAMPOS PARA CARTÃO DE PAGAMENTO -->
+ <legend>Campos para Cartão de Pagamento</legend>
+ <table cellspacing="20" align="center">
+  <tr>
+   <td>
+    <label for="Número do Cartão">Número do Cartão: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Número do Cartão">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="nome do cartão">Nome do Cartão </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome do cartão">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="Validade">Validade: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Validade">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="CVV">CVV: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="CVV">
+   </td>
+  </tr>
+ </table>
+<br />
+<button type="submit">Enviar</button>
+
+</form>
+</main>
+ </body>
+
+</main>
+</html>

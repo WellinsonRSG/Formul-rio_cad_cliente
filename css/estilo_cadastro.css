@@ -1,0 +1,17 @@
+input{
+    width: 800;
+    height: 30;
+}
+
+header{
+    background: gray;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 10px;
+    place-items: center;
+}
+select{
+    width: 800;
+    height: 30;
+}
